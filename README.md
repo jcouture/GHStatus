@@ -6,13 +6,12 @@ See the system status of GitHub, at a glance on your Mac.
 
 ## Getting Started
 
-GHStatus uses [CocoaPods](https://github.com/CocoaPods/CocoaPods) to manage dependencies, so make sure you have that installed before attempting to build the project.
-
 ``` bash
 $ git clone git://github.com/jcouture/GHStatus.git
 $ cd GHStatus
-$ pod install
-$ open GHStatus.xcworkspace
+$ git submodule init
+$ git submodule update
+$ open GHStatus.xcodeproj
 ```
 
 ## Requirements
